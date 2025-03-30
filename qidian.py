@@ -177,7 +177,7 @@ def save_to_json(data, filename="qidian_rankings.json"):
 
 def main():
     """主程序"""
-    use_local = True  # 设置为True使用本地temp.html，False从网站获取
+    use_local = False  # 设置为True使用本地temp.html，False从网站获取
 
     if use_local:
         # 读取本地HTML文件

@@ -7,6 +7,15 @@ from datetime import datetime
 
 
 # https://fanqienovel.com/api/author/misc/top_book_list/v1/?limit=200&offset=0
+# {
+#             "author": "流潋紫",
+#             "book_id": "7296152639836785675",
+#             "book_name": "后宫·甄嬛传",
+#             "category": "宫斗宅斗",
+#             "creation_status": 0,
+#             "rank_score": "",
+#             "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0a84ab572d09874cdaa2f6aeb5133216~tplv-snk2bdmkp8-superreso-double-rz:1200:0.image?lk3s=ae45642e&x-expires=1748493825&x-signature=QknCcEPX3v84n20iM9ORrEbi%2FW4%3D"
+# }
 
 
 def getJson():

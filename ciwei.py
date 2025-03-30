@@ -203,11 +203,6 @@ def main():
         print("获取网页内容失败")
         return
 
-    # 保存HTML内容用于调试
-    with open("ciweimao_debug.html", "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print("已保存原始HTML到ciweimao_debug.html")
-
     # 解析HTML
     html_tree = etree.HTML(html_content)
 
